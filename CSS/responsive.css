@@ -1,0 +1,537 @@
+/* 800px and  904px*/
+@media (min-width:50em) and (max-width:56.5em) {
+    .content-parts .pyment {
+        margin-left: -3rem;
+    }
+}
+
+/********************************************************************/
+
+/*  700px    and  800px  */
+
+@media(min-width:43.75em) and (max-width:50em) {
+    .parts-section .pyment {
+        gap: 1rem;
+    }
+
+    .parts-section .pyment .btn-pyment {
+        padding: 0.8rem 0.8rem;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1rem;
+    }
+
+    .content-card .content-pergraph {
+        font-size: 1rem;
+    }
+
+    .main .search {
+        width: 63rem;
+        top: -14rem;
+    }
+
+    .main .contanier-pergraph {
+        max-width: 30rem;
+        line-height: 1.5;
+    }
+
+    .main .main-content .btn-link {
+        margin-left: 1rem;
+    }
+
+}
+
+/********************************************************************/
+
+/* 600px  and  680px */
+
+@media(min-width:37.5em) and (max-width:43.4375em) {
+    .main .contanier-pergraph {
+        max-width: 30rem;
+        line-height: 1.5;
+    }
+
+    .about-section .about {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1.2rem;
+        padding: 0 4rem;
+    }
+
+    .section-registier .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-registier .contact .image-contact {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section-registier .contact .form-contact {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .main .search {
+        width: 54rem;
+        top: -14rem
+    }
+}
+
+/********************************************************************/
+
+/* 500px  and  595px */
+@media(min-width:31.25em) and (max-width:37.1875em) {
+    .main .contanier-pergraph {
+        max-width: 26rem;
+        line-height: 1.5;
+    }
+
+    .main .search {
+        width: 46rem;
+        top: 12rem;
+    }
+
+    .names-car .name-care {
+        font-size: 1.1rem;
+    }
+
+    .about-section .about {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts {
+        grid-template-columns: 1fr;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1.2rem;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+
+    .section-registier .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-registier .contact .image-contact {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section-registier .contact .form-contact {
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+
+/* nave bar mobile 544*/
+
+@media (max-width :34rem) {
+    .header-caption {
+        z-index: 9999;
+    }
+
+    .navegtion {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 3px solid #f01c29;
+        transition: 0.5s all;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5;
+    }
+
+    .active .navegtion {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    .serch-nav .btn-search {
+        display: block;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: -3rem;
+    }
+
+    .search {
+        z-index: 9999;
+        top: 12rem;
+        width: 47rem;
+        left: 2rem;
+    }
+
+    .nav-list li a {
+        transition: 0.5s all;
+    }
+
+    .nav-list li a:hover {
+        transform: scaleX(1.2);
+    }
+
+    .icon-navbar {
+        display: block;
+    }
+
+    .btn-search {
+        display: none;
+    }
+
+    .search {
+        top: 15rem;
+        width: 47rem;
+        left: 2rem
+    }
+
+}
+
+/**********************************************************/
+
+/* 400px  and  495px */
+
+@media(min-width:25em) and (max-width:30.3125em) {
+    html {
+        font-size: 50%;
+    }
+
+    .main .contanier-pergraph {
+        max-width: 14rem;
+        line-height: 1.5;
+    }
+
+    .main .main-content .btn-link {
+        margin-left: 0;
+    }
+
+    .main .search {
+        position: absolute;
+        width: 37rem;
+        top: 17rem;
+    }
+
+    .cars-section .cars {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parts-section .type-parts {
+        margin-bottom: 1.3rem;
+    }
+
+    .Blog-section .Blog {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts-pergraph {
+        font-size: 1rem;
+        padding: 0 4rem;
+    }
+
+
+    .names-car .name-care {
+        font-size: 1.1rem;
+    }
+
+    .about-section .about {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts {
+        grid-template-columns: 1fr;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1.2rem;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+
+    .section-registier .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-registier .contact .image-contact {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section-registier .contact .form-contact {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .cars-section .cars-pergraph {
+        padding: 0 8rem;
+    }
+
+    .footer .contanier-footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3rem;
+        column-gap: 2rem;
+    }
+
+    .footer .contanier-footer .nav-footer {
+        padding: 0 4rem;
+    }
+
+    .copy-right .Ancuer {
+        font-size: 1.2rem;
+    }
+
+    .btn-delete {
+        left: 33rem;
+        bottom: 1.6rem;
+    }
+}
+
+/**********************************************************/
+
+/*300px  and  395px*/
+@media(min-width:18.75em) and (max-width:24.6875em) {
+    html {
+        font-size: 50%;
+    }
+
+    .main .contanier-pergraph {
+        max-width: 14rem;
+        line-height: 1.5;
+    }
+
+    .main .main-content .btn-link {
+        margin-left: 0;
+    }
+
+    .main .search {
+        position: absolute;
+        width: 27rem;
+        top: 19rem;
+    }
+
+    .cars-section .cars {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parts-section .type-parts {
+        margin-bottom: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .Blog-section .Blog {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts-pergraph {
+        font-size: 1rem;
+        padding: 0 4rem;
+    }
+
+
+    .names-car .name-care {
+        font-size: 1.1rem;
+    }
+
+    .about-section .about {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts {
+        grid-template-columns: 1fr;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1.2rem;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+
+    .section-registier .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-registier .contact .image-contact {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section-registier .contact .form-contact {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .cars-section .cars-pergraph {
+        padding: 0 4rem;
+        line-height: 1.2;
+    }
+
+    .footer .contanier-footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3rem;
+        column-gap: 2rem;
+        margin: -3rem;
+    }
+
+    .footer .contanier-footer .nav-footer {
+        padding: 0 4rem;
+    }
+
+    .copy-right .Ancuer {
+        font-size: 0.9rem;
+        margin-top: 1.2rem;
+    }
+
+    .btn-delete {
+        left: 24rem;
+        bottom: 1.6rem;
+    }
+
+    .cars-section .cars {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**********************************************************/
+
+/*200px  and  295px*/
+@media(min-width:12.5em) and (max-width:18.4375em) {
+    html {
+        font-size: 50%;
+    }
+
+    .main .contanier-pergraph {
+        max-width: 10rem;
+        line-height: 1.5;
+    }
+
+    .main .main-content .btn-link {
+        margin-left: 0;
+    }
+
+    .main .search {
+        position: absolute;
+        width: 22rem;
+        top: 27rem;
+    }
+
+
+    .cars-section .cars {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .parts-section .type-parts {
+        margin-bottom: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .Blog-section .Blog {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts-pergraph {
+        font-size: 1rem;
+        padding: 0 4rem;
+    }
+
+
+    .names-car .name-care {
+        font-size: 1.1rem;
+    }
+
+    .about-section .about {
+        grid-template-columns: 1fr;
+    }
+
+    .parts-section .parts {
+        grid-template-columns: 1fr;
+    }
+
+    .Blog-section .blog-pergraph {
+        font-size: 1.2rem;
+        padding: 0 4rem;
+        line-height: 1.5;
+    }
+
+    .section-registier .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .section-registier .contact .image-contact {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section-registier .contact .form-contact {
+        border-radius: 0 0 5px 5px;
+    }
+
+    .cars-section .cars-pergraph {
+        padding: 0 4rem;
+        line-height: 1.2;
+    }
+
+    .footer .contanier-footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3rem;
+        column-gap: 0rem;
+        margin-left: -3rem;
+    }
+
+    .footer .contanier-footer .nav-footer {
+        padding: 0 1.5rem 2.5rem 3.5rem;
+    }
+
+    .copy-right .Ancuer {
+        font-size: 0.7rem;
+        margin-top: -1.8rem;
+    }
+
+
+    .btn-delete {
+        left: 24rem;
+        bottom: 1.6rem;
+    }
+
+    .cars-section .cars {
+        grid-template-columns: 1fr;
+    }
+
+    .pyment .btn-pyment {
+        padding: 1rem 1.5rem;
+    }
+
+    .pyment .details {
+        display: inline-block;
+        font-size: 1rem;
+
+    }
+
+    .main-content {
+        margin-left: -2rem;
+        margin-top: 1rem;
+    }
+
+    .List-nav li a {
+        font-size: 0.9rem;
+    }
+
+    .cars-section .type-cars {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .btn-delete {
+        left: 19rem;
+        bottom: 1.6rem;
+    }
+}
+
+/**********************************************************/
